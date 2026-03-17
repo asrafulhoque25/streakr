@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200;300;400;500;600;700&family=Stack+Sans+Text:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <!-- ═══════════════════════════════ NAVBAR ═══════════════════════════════ -->
+    <header class="navbar" id="navbar">
+        <div class="nav-inner">
+
+            <!-- Left: nav links (desktop) -->
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Benefits</a></li>
+                    <li><a href="#">Blogs</a></li>
+                </ul>
+            </nav>
+
+            <!-- Center: logo -->
+            <a href="#" class="nav-logo">
+                <!-- Flame / orbit SVG logo mark (matches design) -->
+                <img src="assets/images/logo.svg" class="img-fluid" alt="logo">
+            </a>
+
+            <!-- Right: CTA button -->
+            <div class="nav-right">
+                <a href="#" class="btn-cta">Get Early Access</a>
+            </div>
+
+            <!-- Hamburger (mobile) -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+    </header>
+
+    <!-- ═══════════════════════════════ MOBILE DRAWER ═══════════════════════ -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+        <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Benefits</a></li>
+            <li><a href="#">Blogs</a></li>
+        </ul>
+        <div class="drawer-cta">
+            <a href="#" class="btn-cta">Get Early Access</a>
+        </div>
+    </div>
+
+
+
+
+    <!-- ═══════════════════════════════ Banner section ═══════════════════════ -->
+    <section class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h1> <span class="text-mute">Break Bad Habits.</span> <br> Build Powerful Streaks.</h1>
+                <p>Track your habits, stay consistent, and build powerful streaks that transform your daily routine for
+                    a better life ahead.</p>
+
+                <a href="#" class="common-btn">
+
+                    <div class="btn-primary">
+                        <div class="icon-slider-wrap">
+                            <div class="icon-slider">
+                                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.1716 6.77822L6.8076 1.41421L8.2218 0L16 7.77822L8.2218 15.5563L6.8076 14.1421L12.1716 8.77822H0V6.77822H12.1716Z"
+                                        fill="#041424" />
+                                </svg>
+                                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.1716 6.77822L6.8076 1.41421L8.2218 0L16 7.77822L8.2218 15.5563L6.8076 14.1421L12.1716 8.77822H0V6.77822H12.1716Z"
+                                        fill="#041424" />
+                                </svg>
+                            </div>
+                        </div>
+                        Get Early Access
+                    </div>
+                </a>
+            </div>
+            <div class="mobile-design">
+                <img src="assets/images/mobile-banner.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- ═══════════════════════════════ Banner section end ═══════════════════════ -->
+
+<div class="box"></div>
+
+    <!-- ═══════════════════════════════ feature section start ═══════════════════════ -->
+     <section class="feature section-padding">
+        <div class="container">
+            <div class="feature-wrapper">
+                <div class="common-header">
+                <h2>Private, Secure, and Anonymous</h2>
+                <p>Your privacy matters. With Streakr, your journey stays completely anonymous so you can focus on improving your habits while your personal data remains safe and protected.</p>
+                </div>
+
+                <div class="features-card">
+                    <div class="features-card-item">
+                        <div class="featuresimg">
+                            <img src="assets/images/features1.svg" class="img-fluid" alt="feature">
+                        </div>
+                        <div class="feature-content">
+                        <h3>100% Anonymous</h3>
+                        <p>Your identity stays private while you track your habits every single day.</p>
+                        </div>
+                    </div>
+                    <div class="features-card-item">
+                        <div class="featuresimg">
+                            <img src="assets/images/features2.svg" class="img-fluid" alt="feature">
+                        </div>
+                        <div class="feature-content">
+                        <h3>Secure Data Protection</h3>
+                        <p>Your progress and personal data are safely protected and secured.</p>
+                        </div>
+                    </div>
+                    <div class="features-card-item">
+                        <div class="featuresimg">
+                            <img src="assets/images/features3.svg" class="img-fluid" alt="feature">
+                        </div>
+                        <div class="feature-content">
+                        <h3>Private Journey</h3>
+                        <p>Focus on self-improvement without worrying about exposure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- ═══════════════════════════════ feature section end ═══════════════════════ -->
+
+
+
+    <!-- ═══════════════════════════════ marquee section start ═══════════════════════ -->
+       <!-- Background shape — opposite rotation, cross effect -->
+ <div class="marquee-bg bg-color">
+     <div class="bg-shape"></div>
+
+  <!-- Marquee pill -->
+ <div class="splide-marquee">
+    <div class="marquee-track">
+
+      <!-- ══ SET 1 ══ -->
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Break</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Habits</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Streakr</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Break</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Habits</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Streakr</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Break</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Habits</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Streakr</span>
+      </div>
+
+      <!-- ══ SET 2 — exact duplicate for seamless loop ══ -->
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Break</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Habits</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Streakr</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Break</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Habits</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Streakr</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Break</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Habits</span>
+      </div>
+
+      <div class="marquee-item">
+        <span class="marquee-item__icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="19.9683" cy="19.9683" r="16" transform="rotate(-3 19.9683 19.9683)" stroke="#041424" stroke-width="2"/><rect x="18.2894" y="7.03845" width="2" height="26" transform="rotate(-3 18.2894 7.03845)" fill="#041424"/><rect x="32.8982" y="18.2893" width="2" height="26" transform="rotate(87 32.8982 18.2893)" fill="#041424"/></svg></span>
+        <span class="marquee-item__text">Streakr</span>
+      </div>
+
+    </div>
+  </div>
+ </div>
+    <!-- ═══════════════════════════════ marquee section end ═══════════════════════ -->
+
+
+
+    <!-- ═══════════════════════════════ app features view end ═══════════════════════ -->
+     <section class="app-features-view bg-color section-padding"> 
+        <div class="container">
+            <div class="app-view-wrap">
+                <div class="app-view-card">
+                    <img src="assets/images/view1.png" class="img-fluid" alt="app-view">
+                    <div class="app-view-content">
+                        <div>
+                            <p class="app-hints">Milestone Tracking</p>
+                            <h3>Reach powerful streak milestones and progress</h3>
+                        </div>
+                        <p class="app-view-pra">Celebrate your progress as you reach important streak milestones. Streakr motivates you to stay consistent, track your achievements, and move closer to long-term habit change every day.</p>
+                    </div>
+                </div>
+                <div class="app-view-card flex-reverse-grid">
+                       <div class="app-view-content">
+                        <div>
+                            <p class="app-hints">Progress Analytics</p>
+                            <h3>Understand your habits and progress clearly</h3>
+                        </div>
+                        <p class="app-view-pra">Get clear insights into your habits and daily progress. Streakr helps you understand patterns, measure improvement, and stay focused on the goals that move you toward stronger discipline.</p>
+                    </div>
+                    <img src="assets/images/view2.png" class="img-fluid" alt="app-view">
+                 
+                </div>
+                <div class="app-view-card">
+                    <img src="assets/images/view3.png" class="img-fluid" alt="app-view">
+                    <div class="app-view-content">
+                        <div>
+                            <p class="app-hints">Soundscapes</p>
+                            <h3>Escape into calm and manage urges.</h3>
+                        </div>
+                        <p class="app-view-pra">Immersive soundscapes help you stay calm and focused when urges appear. Listen to relaxing environments like campfire, ocean, rain, and forest to reset your mind and regain control.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- ═══════════════════════════════ app features view end ═══════════════════════ -->
+
+
+
+    <!-- ═══════════════════════════════ AI therapist start ═══════════════════════ -->
+     <section class="ai-therapist section-padding">
+        <div class="container">
+            <div class="ai-therapist-wrap">
+                <div class="aitherapist-icon">
+                    <img src="assets/images/ai.svg" class="img-fluid" alt="ai">
+                </div>
+                <div class="ai-therapist-content">
+                    <h2>AI therapist</h2>
+                    <p>Get instant guidance when challenges appear. Streakr’s AI therapist offers helpful advice to manage urges, stay focused, and remain consistent on your journey.</p>
+                </div>
+                 <div class="white-btn">
+                       <a href="#" class="common-btn">
+
+                    <div class="btn-primary">
+                        <div class="icon-slider-wrap">
+                            <div class="icon-slider">
+                                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.1716 6.77822L6.8076 1.41421L8.2218 0L16 7.77822L8.2218 15.5563L6.8076 14.1421L12.1716 8.77822H0V6.77822H12.1716Z"
+                                        fill="#041424" />
+                                </svg>
+                                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.1716 6.77822L6.8076 1.41421L8.2218 0L16 7.77822L8.2218 15.5563L6.8076 14.1421L12.1716 8.77822H0V6.77822H12.1716Z"
+                                        fill="#041424" />
+                                </svg>
+                            </div>
+                        </div>
+                        Get Early Access
+                    </div>
+                </a>
+                 </div>
+            </div>
+        </div>
+     </section>
+    <!-- ═══════════════════════════════ AI therapist end ═══════════════════════ -->
+
+
+
+    <!-- ═══════════════════════════════ motivation section start ═══════════════════════ -->
+     <section class="motivation bg-color section-padding">
+        <div class="container">
+            <div class="motivation-wrap">
+                <div>
+                    <img src="assets/images/text.svg" class="img-fluid" alt="text-svg">
+                </div>
+                <div class="motivation-content">
+                    <h2>Stay strong with a supportive and motivating community</h2>
+                    <p>You are not alone on this journey. Connect with people who share similar goals and challenges. Support each other, stay encouraged, and build stronger habits together. Being part of a positive community helps you stay motivated, overcome setbacks, and remain committed as you grow and improve every day.</p>
+
+                    <div class="counter-wrap">
+                        <div class="counter-item">
+                            <p>Active Members</p>
+                            <h3>2.8M</h3>
+                        </div>
+                        <div class="counter-item">
+                            <p>Posts today</p>
+                            <h3>830</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- ═══════════════════════════════ motivation section end ═══════════════════════ -->
+
+
+
+
+    <!-- ═══════════════════════════════ cta section start ═══════════════════════ -->
+     <section class="bg-color">
+        <div class="container app-features-view ">
+              <div class="app-view-card">
+                         <div class="app-view-content">
+                        <div>
+                            <p class="app-hints">Soundscapes</p>
+                            <h3>Escape into calm and manage urges.</h3>
+                        </div>
+                           <div class="cta-btn">
+                            <a href="#" class="common-btn">
+
+                    <div class="btn-primary">
+                        <div class="icon-slider-wrap">
+                            <div class="icon-slider">
+                                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.1716 6.77822L6.8076 1.41421L8.2218 0L16 7.77822L8.2218 15.5563L6.8076 14.1421L12.1716 8.77822H0V6.77822H12.1716Z"
+                                        fill="#041424" />
+                                </svg>
+                                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.1716 6.77822L6.8076 1.41421L8.2218 0L16 7.77822L8.2218 15.5563L6.8076 14.1421L12.1716 8.77822H0V6.77822H12.1716Z"
+                                        fill="#041424" />
+                                </svg>
+                            </div>
+                        </div>
+                        Get Early Access
+                    </div>
+                </a>
+                           </div>
+                    </div>
+                    <img src="assets/images/cta-view.png" class="img-fluid" alt="app-view">
+                </div>
+        </div>
+     </section>
+    <!-- ═══════════════════════════════ cta section end ═══════════════════════ -->
+
+
+
+    <!-- ═══════════════════════════════ footer section start ═══════════════════════ -->
+     
+<footer class="footer bg-color section-padding">
+ 
+  <!-- Logo -->
+  <a href="#" class="footer-logo">
+ <img src="assets/images/footer-logo.svg" class="img-fluid" alt="footer">
+  </a>
+ 
+  <!-- Nav links -->
+  <ul class="footer-nav">
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms and Conditions</a></li>
+    <li><a href="#">Community</a></li>
+  </ul>
+ 
+  <!-- Divider -->
+  <div class="footer-divider"></div>
+ 
+  <!-- Copyright -->
+  <p class="footer-copy">© 2026 Streakr</p>
+ 
+</footer>
+    <!-- ═══════════════════════════════ footer section end ═══════════════════════ -->
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
