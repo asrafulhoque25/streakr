@@ -1235,6 +1235,9 @@ select {
 
 
 /* cta start*/
+.cta-btn{
+    margin-top: 20px;
+}
 .cta-hints {
    color: #91A4B8;
 font-family: "Stack Sans Text";
