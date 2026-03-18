@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Streakr</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
@@ -262,7 +262,7 @@
      <section class="app-features-view bg-color section-padding"> 
         <div class="container">
             <div class="app-view-wrap">
-                <div class="app-view-card">
+                <div class="app-view-card first-view-card">
                     <img src="assets/images/view1.png" class="img-fluid" alt="app-view">
                     <div class="app-view-content">
                         <div>
@@ -283,7 +283,7 @@
                     <img src="assets/images/view2.png" class="img-fluid" alt="app-view">
                  
                 </div>
-                <div class="app-view-card">
+                <div class="app-view-card last-view-card">
                     <img src="assets/images/view3.png" class="img-fluid" alt="app-view">
                     <div class="app-view-content">
                         <div>
@@ -351,16 +351,16 @@
                     <h2>Stay strong with a supportive and motivating community</h2>
                     <p>You are not alone on this journey. Connect with people who share similar goals and challenges. Support each other, stay encouraged, and build stronger habits together. Being part of a positive community helps you stay motivated, overcome setbacks, and remain committed as you grow and improve every day.</p>
 
-                    <div class="counter-wrap">
-                        <div class="counter-item">
-                            <p>Active Members</p>
-                            <h3>2.8M</h3>
-                        </div>
-                        <div class="counter-item">
-                            <p>Posts today</p>
-                            <h3>830</h3>
-                        </div>
-                    </div>
+                   <div class="counter-wrap">
+    <div class="counter-item">
+        <p>Active Members</p>
+        <h3 data-target="2.8" data-suffix="M" data-decimals="1">0</h3>
+    </div>
+    <div class="counter-item">
+        <p>Posts today</p>
+        <h3 data-target="830" data-suffix="" data-decimals="0">0</h3>
+    </div>
+</div>
                 </div>
             </div>
         </div>
@@ -445,6 +445,9 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+ <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
     <script src="script.js"></script>
 </body>

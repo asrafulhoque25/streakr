@@ -206,6 +206,12 @@ select {
     align-items: center;
 }
 
+@media (max-width:640px) {
+    .nav-logo img{
+        width: 160px;
+    }
+}
+
 /* SVG flame/orbit logo mark */
 .logo-mark {
     width: 36px;
@@ -955,10 +961,17 @@ select {
 
 @media (max-width:640px) {
     .app-view-card {
-        display: grid;
+        display: flex;
+        flex-direction: column-reverse;
         grid-template-columns: 1fr;
-        /* desktop e 3 ta */
         gap: 0px;
+    }
+    .first-view-card{
+        display: grid !important;
+    }
+    .last-view-card{
+        display: grid !important;
+        flex-direction: column-reverse !important;
     }
 
     .app-view-card {
@@ -972,6 +985,10 @@ select {
 
     .app-view-content {
         padding: 16px 16px 48px 16px;
+        text-align: center;
+    }
+    .app-view-content .cta-btn{
+        margin-top: 16px;
     }
 
     .app-hints {
@@ -1187,6 +1204,11 @@ select {
     .counter-wrap .counter-item {
         width: 100%;
         margin-top: 24px;
+        padding: 16px;
+        gap: 36px;
+    }
+    .counter-item{
+        font-size: 24px;
     }
 }
 
@@ -1301,6 +1323,37 @@ select {
         max-width: 100%;
         margin-bottom: 16px;
     }
+    .footer-copy{
+        font-size: 12px;
+    }
+    .footer-logo img{
+        width: 157px;
+    }
 }
 
 /* footer end*/
+
+
+/* smooth scroll  start*/
+/* smooth scrooll */
+
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+/* smooth scroll end*/

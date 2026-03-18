@@ -57,3 +57,62 @@
           : {}
       );
     });
+
+
+    //counter
+
+    gsap.registerPlugin(ScrollTrigger);
+ 
+
+const counterEls = document.querySelectorAll('[data-target]');
+ 
+counterEls.forEach(function (el) {
+  const target   = parseFloat(el.dataset.target)  || 0;
+  const suffix   = el.dataset.suffix              ?? '';
+  const decimals = parseInt(el.dataset.decimals)  || 0;
+ 
+ 
+  el.textContent = (0).toFixed(decimals) + suffix;
+ 
+  const obj = { val: 0 };
+ 
+  gsap.to(obj, {
+    val:      target,
+    duration: 2,
+    ease:     'power2.out',
+    scrollTrigger: {
+      trigger:       '.motivation',
+      start:         'top 75%',
+      toggleActions: 'play none none none',
+    },
+    onUpdate: function () {
+      el.textContent = obj.val.toFixed(decimals) + suffix;
+    },
+  });
+});
+ 
+
+    
+//smooth scroll
+
+// Initialize Lenis
+const lenis = new Lenis({
+  duration: 1.4,     
+  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), 
+  direction: 'vertical', 
+  gestureDirection: 'vertical',
+  smoothWheel: true,
+  wheelMultiplier: 1.3, 
+  infinite: false,
+});
+
+
+lenis.on('scroll', ScrollTrigger.update);
+
+gsap.ticker.add((time) => {
+  lenis.raf(time * 1000);
+});
+
+gsap.ticker.lagSmoothing(0);
+
+
