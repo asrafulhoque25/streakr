@@ -1015,6 +1015,7 @@ select {
     .app-features-view .app-view-content h3 {
         font-size: 28px;
         padding: 8px 0;
+        text-align: center;
     }
 
     .app-features-view .app-view-content .app-view-pra {
@@ -1234,8 +1235,23 @@ select {
 
 
 /* cta start*/
-.cta-btn {
-    /* display: block; */
+.cta-hints {
+   color: #91A4B8;
+font-family: "Stack Sans Text";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+}
+@media (max-width:991px) {
+    .cta-hints {
+        font-size: 16px;
+    }
+}
+@media (max-width:640px) {
+    .cta-hints {
+        font-size: 14px;
+    }
 }
 
 /* cta end*/
