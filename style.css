@@ -357,7 +357,7 @@ select {
     .nav-inner {
         grid-template-columns: auto 1fr auto auto;
         gap: 12px;
-        padding: 0 20px;
+        padding: 0 16px;
     }
 
     nav {
