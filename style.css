@@ -434,6 +434,7 @@ select {
     text-align: center;
 }
 
+
 .banner-content p {
     color: #91A4B8;
     text-align: center;
@@ -445,6 +446,15 @@ select {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 24px;
+}
+.banner-content p span{
+    color: #D3DEE9;
+    font-weight: 500;
+}
+@media (max-width:500px) {
+    .banner-content p br{
+    display: none;
+}
 }
 
 
@@ -797,15 +807,15 @@ select {
 /* marquee */
 
 .bg-shape {
-    position: absolute;
-    max-width: 98vw;
+     position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(3deg);
+    max-width: 1900px;
     width: 100%;
     height: 70px;
     border-radius: 1100px;
     opacity: 0.5;
     background: linear-gradient(90deg, #E11B22 0%, #FFD400 100%);
-    transform: rotate(3deg);
-    /* marquee -3deg, shape +3deg = cross effect */
     filter: blur(0px);
     z-index: 1;
     pointer-events: none;
@@ -822,7 +832,8 @@ select {
     .splide-marquee {
       position: relative;
       z-index: 2;
-          max-width: 98vw;
+          max-width: 1900px;
+          margin: auto;
         width: 100%;
       padding: 16px 0;
       background: linear-gradient(90deg, #E11B22 0%, #FFD400 100%);
@@ -1052,6 +1063,11 @@ select {
     justify-content: center;
 }
 
+.ai-therapist-wrap .ai-therapist-content{
+    max-width: 736px;
+    width:100%;
+    margin: auto;
+}
 .ai-therapist-wrap .ai-therapist-content h2 {
     text-align: center;
     font-family: "Stack Sans Headline";
